@@ -26,8 +26,12 @@ h3 {
 }
 
 .secondary-content {
-  border-top: 2px solid lightgrey;
+  
 
+}
+
+t-border {
+   border-top: 2px solid lightgrey;
 }
 
 #main-footer {

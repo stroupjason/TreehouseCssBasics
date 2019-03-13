@@ -26,6 +26,10 @@ h3 {
 }
 
 .secondary-content {
+  
+}
+
+.t-border {
   border-top: 2px solid lightgrey;
 }
 
