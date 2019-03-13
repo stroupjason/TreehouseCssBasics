@@ -1,10 +1,12 @@
+/* type selector */
+
 body {
   color: #878787;
   margin: 0;
 }
 
 h1 {  
-  font-size: 90px;
+   font-size: 90px; 
   color: white;
 }
 
@@ -17,14 +19,18 @@ h3 {
   color: #48525c;
 }
 
+/* ID selectors */
+
 #main-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: solid 10px orange;
 }
 
+/* Class selectors */
+
 .main-header {
-  background-color: orange;
+  background-color: orange; /* makes header bg orange */
 }
 
 .title {
