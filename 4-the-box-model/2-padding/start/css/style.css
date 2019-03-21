@@ -85,5 +85,15 @@ a:active {
   width: 60%;
 }
 
-
+.wildlife {
+  color: white;
+  background-color: #434a52;
+  /* padding-top: 100px;
+  padding-right: 120px;
+  padding-bottom: 100px;
+  padding-left: 120px; see short hand below:*/
+  /* padding: 100px, 120px, 100px, 120px; or: */
+  /* padding: 100px, 120px; */
+  padding: 18%, 24%; /*18% of top and bottom padding, 24% to left and right sides of the container(responsive)*/
+}
 
