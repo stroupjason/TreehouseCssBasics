@@ -91,6 +91,7 @@ a:active {
 	padding-top: 80px;
 	padding-bottom: 70px;
   border-bottom: 2px solid #dfe2e6;
+  overflow: auto; /*accounts for the height in the floated columns, not most effective, scrollbars to appear in certain browsers,  or content area may get cut off; use for smaller projects */
 }
 
 .callout {
@@ -156,6 +157,9 @@ a:active {
 
 
 /* Float Clearfix ------------------ */
+
+/*use anytime you need a containing element cleared us class: ".group"*/
+/*on line 29 we gave the class secondary content group, this allows the content to contain the columns w/out collapsing (pushed footer below) */
 
 .group:after {
   content: "";
