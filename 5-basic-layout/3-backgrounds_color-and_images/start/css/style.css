@@ -67,7 +67,7 @@ a:active {
   background-size: cover; relative to width and hieght of the background area of the element not the image, tiling by default
   background-repeat: no-repeat; img initial position is in top left corner (1 tile)
   background-position: center;*/
-  /*short hand background property below:*/
+  /*short hand background properties below:*/
   background: #ffa949 url('../img/mountains.jpg') no-repeat center;
   background-size: cover;
 }
