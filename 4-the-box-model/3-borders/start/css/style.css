@@ -90,6 +90,14 @@ a:active {
   background-color: #434a52;
  
   padding: 18% 24%;
+  /* border-width: 10px 20px; /*in order to see the border width, you must apply a border-style
+  border-style: solid; need to use a color to see
+  border-color: #ffa949; */
+  /*shorthand below:*/
+  border-top: 10px solid #ffa949;
+  /*border-bottom-style: dashed; only styles the bottom style*/
+  /*border-left-color: green; /*only styles the left border green*/
+
 }
 
 
