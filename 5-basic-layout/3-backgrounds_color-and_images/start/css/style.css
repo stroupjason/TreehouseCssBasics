@@ -59,9 +59,17 @@ a:active {
 /* Main Styles --------------------- */
 
 .main-header {
-  background-color: #ffa949;
+  
   padding-top: 170px;
   height: 850px;
+  /*background-color: #ffa949;
+  background-image: url('../img/mountains.jpg');
+  background-size: cover; relative to width and hieght of the background area of the element not the image, tiling by default
+  background-repeat: no-repeat; img initial position is in top left corner (1 tile)
+  background-position: center;*/
+  /*short hand background property below:*/
+  background: #ffa949 url('../img/mountains.jpg') no-repeat center;
+  background-size: cover;
 }
 
 .title {
