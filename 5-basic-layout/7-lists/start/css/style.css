@@ -37,6 +37,24 @@ img {
   margin-bottom: 20px;
 }
 
+ul,
+ol {
+  margin: auto;
+}
+
+li {
+  margin-bottom: 10px;
+
+}
+
+/* ul {
+  list-style-type: default;
+} */
+
+/* ol {
+  list-style-type: decimal-leading-zero;
+} */
+
 /* Pseudo-classes ------------------ */
 
 a:link {
